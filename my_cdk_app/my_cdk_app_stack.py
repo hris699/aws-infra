@@ -1,7 +1,6 @@
 from constructs import Construct
 from aws_cdk import (
-    Stack,
-    core
+    Stack
 )
 from aws_cdk import aws_lambda as _lambda
 from aws_cdk import aws_dynamodb as dynamodb
@@ -19,8 +18,7 @@ class MyCdkAppStack(Stack):
             partition_key=dynamodb.Attribute(
                 name="id",
                 type=dynamodb.AttributeType.STRING
-            ),
-            removal_policy=core.RemovalPolicy.DESTROY
+            )
             )
 
         lambda_function = _lambda.Function(

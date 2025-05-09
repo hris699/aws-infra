@@ -1,4 +1,5 @@
 from constructs import Construct
+from aws_cdk import Stack
 from aws_cdk import aws_lambda as _lambda
 from aws_cdk import aws_dynamodb as dynamodb
 from aws_cdk import aws_apigateway as apigateway

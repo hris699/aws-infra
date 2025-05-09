@@ -1,0 +1,7 @@
+{
+  "app": "python app.py",
+  "context": {
+    "@aws-cdk/core:stackName": "MyCdkAppStack"
+  },
+  "version": "0.0.0"
+}

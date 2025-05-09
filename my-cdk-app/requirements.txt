@@ -1,0 +1,8 @@
+aws-cdk.core
+aws-cdk.aws-s3
+aws-cdk.aws-lambda
+aws-cdk.aws-api-gateway
+aws-cdk.aws-dynamodb
+aws-cdk.aws-iam
+aws-cdk.aws-sqs
+aws-cdk.aws-sns

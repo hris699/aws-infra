@@ -1,11 +1,11 @@
-from aws_cdk import core
+from constructs import Construct
 from aws_cdk import aws_lambda as _lambda
 from aws_cdk import aws_dynamodb as dynamodb
 from aws_cdk import aws_apigateway as apigateway
 
-class MyCdkAppStack(core.Stack):
+class MyCdkAppStack(Stack):
 
-    def __init__(self, scope: core.Construct, id: str, **kwargs) -> None:
+    def __init__(self, scope: Construct, id: str, **kwargs) -> None:
         super().__init__(scope, id, **kwargs)
 
 
